@@ -187,8 +187,8 @@
    <form>
    <table>
    <tr>
-     <td><input type="text" size="4" value="1" id="xf0"></td>
-     <td><input type="text" size="4" value="0" id="xf1"></td>
+     <td><input type="text" size="4" value="1" id="xf0" tabindex="1"></td>
+     <td><input type="text" size="4" value="0" id="xf1" tabindex="2"></td>
      <td>
        <button type="button" onclick="timmy.moveTimmy();">Timmy!</button>
        <button type="button" id="downtarget" onclick="timmy.changeTarget(-1);">
@@ -200,8 +200,8 @@
      </td>
    </tr>
    <tr>
-     <td><input type="text" size="4" value="0" id="xf2"></td>
-     <td><input type="text" size="4" value="1" id="xf3"></td>
+     <td><input type="text" size="4" value="0" id="xf2" tabindex="3"></td>
+     <td><input type="text" size="4" value="1" id="xf3" tabindex="4"></td>
      <td>
        Target<input type="checkbox" id="target" onclick="timmy.draw();">
        Ghost<input type="checkbox" id="ghost" onclick="timmy.draw();">
